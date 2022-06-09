@@ -1,4 +1,4 @@
-# koeck-website
+# Nuxt-SB-Demo Project
 
 
 ## Build Setup
