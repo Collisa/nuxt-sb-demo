@@ -7,7 +7,7 @@
       <!-- grid with stack -->
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-8 md:mt-12 gap-5 md:gap-10">
         <div v-for="(stack, index) in blok.stack" :key="index">
-          <NuxtLink :to="stack.full_slug">
+          <NuxtLink v-if="stack.full_slug" :to="stack.full_slug">
             <Card
               :name="getHeroTitle(stack)"
               :index="index"
