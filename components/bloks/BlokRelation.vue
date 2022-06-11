@@ -1,5 +1,5 @@
 <template>
-  <Section variant="xl">
+  <Section v-editable="blok" variant="xl">
     <div>
       <h2 class="">
         {{ blok.title }}

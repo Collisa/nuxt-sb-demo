@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main v-editable="blok">
     <slot name="bloks" />
   </main>
 </template>
